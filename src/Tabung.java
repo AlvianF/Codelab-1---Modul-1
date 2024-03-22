@@ -12,7 +12,7 @@ public class Tabung extends BangunRuang{
 
     @Override
     public void inputNilai(){
-        super.luasPermukaan();
+        super.inputNilai();
         System.out.print("Input tinggi: ");
         tinggi = scanner.nextDouble();
         System.out.print("Input jari-jari: ");
@@ -23,13 +23,13 @@ public class Tabung extends BangunRuang{
     public void luasPermukaan(){
         double hasil = 2 * Math.PI * jari_jari * (jari_jari);
         super.luasPermukaan();
-        System.out.println("Hasil luas permukaan: " + (int)hasil);
+        System.out.println("Hasil luas permukaan: " + hasil);
     }
 
     @Override
     public void volume(){
         double hasil = Math.PI * Math.pow(jari_jari, 2) * tinggi;
         super.volume();
-        System.out.println("Hasil volume: " + (int)hasil);
+        System.out.println("Hasil volume: " + hasil);
     }
 }

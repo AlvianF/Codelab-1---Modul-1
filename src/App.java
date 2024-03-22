@@ -11,7 +11,6 @@ public class App {
         kubus.inputNilai();
         kubus.luasPermukaan();
         kubus.volume();
-
         tabung.inputNilai();
         tabung.luasPermukaan();
         tabung.volume();

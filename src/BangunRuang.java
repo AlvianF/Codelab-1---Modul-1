@@ -6,7 +6,7 @@ public abstract class BangunRuang {
     }
 
     public void inputNilai(){
-        System.out.println("Input nilai");
+        System.out.println("\nInput nilai bangun " + name);
     }
 
     public void luasPermukaan(){
